@@ -1,24 +1,23 @@
-let search = document .querySelector('.search-box')
+let search = document.querySelector('.search-box');
+let navbar = document.querySelector('.navbar');
 
-document .querySelector('#search-icon').oneclick = () => {
-        search.classList.toggle('active');
-        navbar.classList.remove('active');
-}
+document.querySelector('#search-icon').onclick = () => {
+    search.classList.toggle('active');
+    navbar.classList.remove('active');
+};
 
-let navbar = document .querySelector('.navbar')
-
-document .querySelector('#menu-icon').oneclick = () => {
-        navbar.classList.toggle('active');
-        search.classList.remove('active');
-}
+document.querySelector('#menu-icon').onclick = () => {
+    navbar.classList.toggle('active');
+    search.classList.remove('active');
+};
 
 window.onscroll = () => {
-        navbar.classList.remove('active');
-        search.classList.remove('active');
-}
+    navbar.classList.remove('active');
+    search.classList.remove('active');
+};
 
 let header = document.querySelector('header');
 
 window.addEventListener('scroll', () => {
-        header.classList.toggle('shadow', window.scrollY > 0)
+    header.classList.toggle('shadow', window.scrollY > 0);
 });
