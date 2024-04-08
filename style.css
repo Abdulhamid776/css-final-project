@@ -125,7 +125,7 @@ header.shadow {
     font-weight: 500;
 }
 
-.home {
+.index {
     width: 100%;
     min-height: 100vh;
     background: url(img/bg.png);
@@ -138,14 +138,14 @@ header.shadow {
     gap: 1.5rem;
 }
 
-.home-text h1 {
+.index-text h1 {
     font-size: 3.4rem;
     color: var(--main-color);
     text-transform: uppercase;
     letter-spacing: 1px;
 }
 
-.home-text p {
+.index-text p {
     font-size: 0.938rem;
     color: var(--bg-color);
     margin: 0.5rem 0 1.4rem;
@@ -417,11 +417,11 @@ header.shadow {
         width: 45px;
     }
 
-    .home-text {
+    .index-text {
         padding-top: 15px;
     }
 
-    .home-text h1 {
+    .index-text h1 {
         font-size: 1.4rem;
     }
 
